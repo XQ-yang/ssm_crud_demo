@@ -11,7 +11,7 @@
 
   <!-- 别名定义，对应实体类所在的包，以后在Mybatis中配置时可以不用写全路径名 -->
   <typeAliases>
-    <package name="com.lfy.demo.domain" />
+    <package name="com.xqy.demo.domain" />
   </typeAliases>
   
 </configuration>
