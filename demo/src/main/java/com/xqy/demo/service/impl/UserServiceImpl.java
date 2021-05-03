@@ -1,14 +1,17 @@
-package com.lfy.demo.service.impl;
+package com.xqy.demo.service.impl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.lfy.demo.dao.UserDao;
-import com.lfy.demo.domain.User;
-import com.lfy.demo.service.UserService;
+import com.xqy.demo.dao.UserDao;
+import com.xqy.demo.domain.User;
+import com.xqy.demo.service.UserService;
 
+/**
+ * @author 小强
+ */
 @Service
 public class UserServiceImpl implements UserService {
     @Autowired

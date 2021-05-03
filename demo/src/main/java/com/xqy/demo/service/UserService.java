@@ -1,10 +1,13 @@
-package com.lfy.demo.dao;
+package com.xqy.demo.service;
 
 import java.util.List;
 
-import com.lfy.demo.domain.User;
+import com.xqy.demo.domain.User;
 
-public interface UserDao {
+/**
+ * @author 小强
+ */
+public interface UserService {
     /** 查找所有用户 */
     List<User> listAll();
     

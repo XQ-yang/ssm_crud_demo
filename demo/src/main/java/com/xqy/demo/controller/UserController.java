@@ -1,4 +1,4 @@
-package com.lfy.demo.controller;
+package com.xqy.demo.controller;
 
 import java.util.HashMap;
 import java.util.List;
@@ -12,9 +12,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.lfy.demo.domain.User;
-import com.lfy.demo.service.UserService;
+import com.xqy.demo.domain.User;
+import com.xqy.demo.service.UserService;
 
+/**
+ * @author 小强
+ */
 @Controller
 @RequestMapping("/user")
 public class UserController {

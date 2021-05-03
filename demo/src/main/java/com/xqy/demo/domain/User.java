@@ -1,7 +1,10 @@
-package com.lfy.demo.domain;
+package com.xqy.demo.domain;
 
 import java.util.Date;
 
+/**
+ * @author 小强
+ */
 public class User {
     public User() {}
     

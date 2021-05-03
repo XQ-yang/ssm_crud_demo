@@ -1,8 +1,11 @@
-package com.lfy.demo.controller;
+package com.xqy.demo.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+/**
+ * @author 小强
+ */
 @Controller
 public class PageController {
 

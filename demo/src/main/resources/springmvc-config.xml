@@ -14,7 +14,7 @@
   <mvc:annotation-driven/>
   
   <!-- 配置扫描器,使SpringMVC认为包下用了@controller注解的类是控制器 -->
-  <context:component-scan base-package="com.lfy.demo.controller"/>
+  <context:component-scan base-package="com.xqy.demo.controller"/>
   
   <!-- 视图解析器 -->
   <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
