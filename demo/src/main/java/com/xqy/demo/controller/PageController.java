@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class PageController {
 
     /** 跳转至首页 */
-    @RequestMapping("/index")
+    @RequestMapping("/")
     public String toIndex() {
         return "index";
     }
